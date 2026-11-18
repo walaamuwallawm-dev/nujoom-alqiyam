@@ -1136,7 +1136,7 @@ function dash(){upsert();const all=rd(),L=flt?all.filter(r=>r.sec===flt):all.sli
 <script>
 /* ===== v22: optional live sync of results to a Google Sheet (Apps Script web app) ===== */
 (function(){
-const SYNC_URL='https://script.google.com/macros/s/AKfycbyT3Lnr5ixa2OMnNFAyTDRodiwLgD9H7pJmHiUnrNbmRf-TB3Tr_YECOiVOUzgwe_zEyw/exec';   /* <- paste the Apps Script web-app URL here */
+const SYNC_URL='https://script.google.com/macros/s/AKfycbz959aUBXqdvHBUSA47rVAMFbibqgCgF44TbBaDLrnPvdW2__h4vGpm4i6ZE8lprmSYSQ/exec';   /* <- paste the Apps Script web-app URL here */
 const LK='nzm_sync_url';
 const url=()=>{try{return localStorage.getItem(LK)||SYNC_URL}catch(e){return SYNC_URL}};
 let lastKey='',lastAt=0;
